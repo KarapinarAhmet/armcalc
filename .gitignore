@@ -1,0 +1,21 @@
+# Derlenmiş object dosyaları
+*.o
+
+# Çıktı binary'leri
+hesap
+benchmark
+
+# Yedek / geçici dosyalar
+*~
+*.swp
+*.tmp
+*.bak
+
+# macOS çöp dosyaları
+.DS_Store
+
+# Linux çöp dosyaları
+Thumbs.db
+
+# Kendi özel notların
+ToDo.md
