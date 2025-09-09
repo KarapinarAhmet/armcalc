@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/file_000000003a3c61f58dc1631d5671a774.png" alt="armcalc banner" width="600"/>
+</p>
 # ⚡️ armcalc
 
 **ARM64 Assembly + C** ile yazılmış, **aşırı hızlı** bir hesap makinesi 🚀  
