@@ -1,23 +1,32 @@
-# 🚀 armcalc Gelecek Planları
+# 📝 ToDo (armcalc - Kişisel Notlar)
 
-## 🧮 Matematik Fonksiyonları
-- [ ] Trigonometrik fonksiyonlar: `sin`, `cos`, `tan`
-- [ ] Logaritma: `ln`, `log10`
-- [ ] Üstel fonksiyon: `exp`
-
-## ⚡️ Benchmark & Sistem
-- [ ] CPU bilgisi göster (ARM64 model, çekirdek sayısı, frekans)
-- [ ] Bellek kullanımını ölçme
-- [ ] Farklı test modları (light / heavy / stress)
-
-## 🔧 Kullanıcı Deneyimi
-- [ ] Daha gelişmiş input parser (parantez desteği: `(2+3)*5`)
-- [ ] Hata mesajları iyileştirme
-- [ ] Çıktıları renkli hale getirme (opsiyonel)
-
-## 📦 Dağıtım
-- [ ] Kolay kurulum için `install.sh`
-- [ ] Github Release (hazır binary)
+> Bu dosya `.gitignore` içindedir, yani sadece benim bilgisayarımda.  
+> Repoya **push edilmez**. Rahat rahat not tutabilirim. 🚀
 
 ---
-✅ Şuan proje stabil → sadece eğlence & hız için kullanılıyor.
+
+## ✅ Yapılmışlar
+- [x] Power fonksiyonu C tarafında optimize edildi
+- [x] Prime fonksiyonu ASM + C karşılaştırmalı eklendi
+- [x] Benchmark + Stress test sistemi hazır
+- [x] Repo GitHub’a atıldı, logo eklendi
+
+---
+
+## 🔥 Yakında Denenecek
+- [ ] Trigonometrik fonksiyonlar (sin, cos, tan)  
+- [ ] CPU Info çıktısı almak  
+- [ ] Farklı cihazlarda benchmark karşılaştırması  
+
+---
+
+## 💡 Fikirler
+- Kullanıcıya limit aşıldığında özel uyarı mesajları  
+- Benchmark sonuçlarını CSV’ye export etme  
+- Renkli terminal çıktısı (görsel şov 😁)
+
+---
+
+## 🐞 Bilinen Ufak Sıkıntılar
+- Çok büyük sayılarda (`2^100000`) `inf` çıkıyor → double sınırı  
+- Prime testinde çok büyük sayılarda yavaşlama olabilir
