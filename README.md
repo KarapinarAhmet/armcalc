@@ -1,5 +1,3 @@
----
-
 # ⚡️ armcalc
 
 **ARM64 Assembly + C** ile yazılmış, **aşırı hızlı** bir hesap makinesi 🚀  
