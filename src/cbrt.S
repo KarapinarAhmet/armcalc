@@ -1,6 +1,12 @@
 .global cbrt_val
-.text
+    .text
+// double cbrt_val(long n)
 cbrt_val:
-    scvtf d0, x0
-    bl cbrt
+    stp x29, x30, [sp, -16]!   // frame push
+    mov x29, sp
+
+    scvtf d0, x0               // arg -> double
+    bl cbrt@PLT                // cbrt(n)
+
+    ldp x29, x30, [sp], 16     // frame pop
     ret
