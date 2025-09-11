@@ -123,19 +123,6 @@ cbrt()   -> 0.250316 sn (ortalama 0.000000003 sn)
 
 ---
 
----
-
-## 📷 Canlı Demo
-
-<p align="center">
-  <img src="assets/demo.gif" alt="armcalc demo" width="700"/>
-</p>
-
-> Demo, **asciinema** ile kaydedildi.  
-> Terminalde `./hesap` çalıştırıldığında nasıl göründüğünü izleyebilirsin.
-
----
-
 🔨 Kurulum
 
 git clone https://github.com/KarapinarAhmet/armcalc.git
