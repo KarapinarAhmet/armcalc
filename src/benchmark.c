@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 #include <math.h>
 
 // Assembly fonksiyonları
@@ -10,20 +11,26 @@ extern long prime(long n);
 extern double sqrt_val(long n);
 extern double cbrt_val(long n);
 extern double power_val(long base, long exp);
-extern double exp_val(double x);
+extern double exp_val(long n);
 
 double elapsed(clock_t start, clock_t end) {
     return (double)(end - start) / CLOCKS_PER_SEC;
 }
 
-int main() {
-    clock_t start, end;
+int main(int argc, char *argv[]) {
+    int REPEATS = 100000; // default
 
-    // -------------------------------
-    // STRESS TEST (looplu)
-    // -------------------------------
-    const int REPEATS = 100000000;   // 🔥 buradan sayıyı değiştirebilirsin
+    if (argc > 1) {
+        REPEATS = atoi(argv[1]);
+        if (REPEATS <= 0) {
+            printf("Geçersiz tekrar sayısı! Pozitif bir sayı gir.\n");
+            return 1;
+        }
+    }
+
     printf("🔥 STRESS TEST BAŞLIYOR (%d tekrar) 🔥\n", REPEATS);
+
+    clock_t start, end;
 
     // Power
     start = clock();
@@ -55,7 +62,7 @@ int main() {
 
     // Prime
     start = clock();
-    for (int i = 0; i < REPEATS; i++) prime(1009); // küçük asal seçtik hız için
+    for (int i = 0; i < REPEATS; i++) prime(1009);
     end = clock();
     printf("⏱ prime() -> %d tekrar: %.6f sn (ortalama %.9f sn)\n",
            REPEATS, elapsed(start, end), elapsed(start, end)/REPEATS);
