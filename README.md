@@ -1,6 +1,21 @@
 <p align="center">
   <img src="assets/file_000000003a3c61f58dc1631d5671a774.png" alt="armcalc logo" width="600"/>
 </p>
+
+<p align="center">
+  <a href="https://github.com/KarapinarAhmet/armcalc/actions">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat-square" alt="Build Status"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"/>
+  </a>
+  <img src="https://img.shields.io/badge/platform-ARM64-orange?style=flat-square" alt="Platform"/>
+  <img src="https://img.shields.io/badge/compiler-clang%20-O2-lightgrey?style=flat-square" alt="Compiler"/>
+</p>
+
+<p align="center">
+  <img src="assets/file_000000003a3c61f58dc1631d5671a774.png" alt="armcalc logo" width="600"/>
+</p>
 # ⚡️ armcalc
 
 **ARM64 Assembly + C** ile yazılmış, **aşırı hızlı** bir hesap makinesi 🚀  
