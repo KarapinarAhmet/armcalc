@@ -141,8 +141,10 @@ cd armcalc
 make
 
 make hesap → Etkileşimli hesap makinesi
+./hesap
 
 make benchmark → Benchmark testi
+./benchmark
 
 
 
