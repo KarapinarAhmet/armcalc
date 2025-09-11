@@ -3,14 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KarapinarAhmet/armcalc/actions">
-    <img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat-square" alt="Build Status"/>
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"/>
-  </a>
-  <img src="https://img.shields.io/badge/platform-ARM64-orange?style=flat-square" alt="Platform"/>
-  <img src="https://img.shields.io/badge/compiler-clang%20-O2-lightgrey?style=flat-square" alt="Compiler"/>
+  <a href="https://github.com/KarapinarAhmet/armcalc/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat-square" alt="Build"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"></a>
+  <a href="https://en.wikipedia.org/wiki/AArch64"><img src="https://img.shields.io/badge/platform-ARM64-orange?style=flat-square" alt="Platform"></a>
+  <a href="https://clang.llvm.org/"><img src="https://img.shields.io/badge/compiler-clang-yellow?style=flat-square" alt="Compiler"></a>
 </p>
 
 # ⚡️ armcalc
