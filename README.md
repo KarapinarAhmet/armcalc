@@ -19,6 +19,29 @@ Matematiğin dibine vuran bir proje: hem **etkileşimli kullanım** hem de **ben
 
 ---
 
+---
+
+## 📚 Fonksiyonlar
+
+| Fonksiyon   | Komut      | ASM Dosyası     | Açıklama                  |
+|-------------|-----------|-----------------|---------------------------|
+| Toplama     | `a + b`   | `topla.S`       | İki sayıyı toplar         |
+| Çıkarma     | `a - b`   | `cikar.S`       | İki sayıyı çıkarır        |
+| Çarpma      | `a * b`   | `carp.S`        | İki sayıyı çarpar         |
+| Bölme       | `a / b`   | `bol.S`         | İki sayıyı böler          |
+| Mod         | `a % b`   | `mod.S`         | Mod alma                  |
+| Power       | `a ^ b`   | `power.S`       | a^b (üs alma)             |
+| Faktöriyel  | `n!`      | `factorial.S`   | Faktöriyel hesaplar       |
+| Fibonacci   | `fib n`   | `fibonacci.S`   | Fibonacci sayısı          |
+| GCD         | `gcd a b` | `gcd.S`         | En büyük ortak bölen      |
+| Prime       | `prime n` | `prime.S`       | Asallık kontrolü          |
+| Abs         | `abs n`   | `abs.S`         | Mutlak değer              |
+| Sqrt        | `sqrt n`  | `sqrt.S`        | Kareköklü                 |
+| Cbrt        | `cbrt n`  | `cbrt.S`        | Küpkök                    |
+| Exp         | `exp n`   | `exp.S`         | e^n (üstel fonksiyon)     |
+
+---
+
 ## 🔥 Örnek Kullanım
 
 ```bash
