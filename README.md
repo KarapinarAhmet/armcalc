@@ -53,15 +53,15 @@ prime(1000003) -> 0.000006 sn
 sqrt()       -> 0.000001 sn
 cbrt()       -> 0.000000 sn
 
-Stress Test (10M tekrar)
+Stress Test (100M tekrar)
 
-2^1000   -> ort. 0.000000009 sn
-20!      -> ort. 0.000000011 sn
-fib(35)  -> ort. 0.000000021 sn
-gcd()    -> ort. 0.000000007 sn
-prime()  -> ort. 0.000000086 sn
-sqrt()   -> ort. 0.000000018 sn
-cbrt()   -> ort. 0.000000025 sn
+2^1000   -> 1.630074 sn (ort. 0.000000016 sn)
+20!      -> 0.938506 sn (ortalama 0.000000009 sn)
+fib(35)  -> 2.064325 sn (ortalama 0.000000021 sn)
+gcd()    -> 0.729602 sn (ortalama 0.000000007 sn)
+prime()  -> 4.419231 sn (ortalama 0.000000044 sn)
+sqrt()   -> 0.291870 sn (ortalama 0.000000003 sn)
+cbrt()   -> 0.250316 sn (ortalama 0.000000003 sn)
 
 ✅ Sonuç: ışık hızında hesaplama ⚡️
 
