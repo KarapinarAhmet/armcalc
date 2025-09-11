@@ -89,6 +89,21 @@ C  sonucu: 19 → asaldır
 
 ---
 
+🧪 Benchmark Kullanımı
+
+# Varsayılan (100K tekrar)
+./benchmark  
+
+# Özel tekrar sayısı
+./benchmark <tekrar_sayısı>
+
+Örnek:
+
+./benchmark 1000000   # 1M tekrar
+./benchmark 10000000  # 10M tekrar
+
+---
+
 📊 Benchmark Sonuçları
 
 💻 Cihaz: ARM64 (Termux)
