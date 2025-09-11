@@ -6,7 +6,7 @@ OBJ=obj
 # Tüm nesne dosyaları
 OBJS=$(OBJ)/topla.o $(OBJ)/cikar.o $(OBJ)/carp.o $(OBJ)/bol.o $(OBJ)/mod.o \
      $(OBJ)/mod_math.o $(OBJ)/power.o $(OBJ)/factorial.o $(OBJ)/fibonacci.o \
-     $(OBJ)/gcd.o $(OBJ)/prime.o $(OBJ)/abs.o $(OBJ)/sqrt.o $(OBJ)/cbrt.o
+     $(OBJ)/gcd.o $(OBJ)/prime.o $(OBJ)/abs.o $(OBJ)/sqrt.o $(OBJ)/cbrt.o $(OBJ)/exp.o
 
 all: hesap benchmark
 

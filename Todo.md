@@ -10,13 +10,13 @@
 - [x] Prime fonksiyonu ASM + C karşılaştırmalı eklendi
 - [x] Benchmark + Stress test sistemi hazır
 - [x] Repo GitHub’a atıldı, logo eklendi
+- [x] Üstel fonksiyon eklendi 
 
 ---
 
 ## 🔥 Yakında Denenecek
-- [ ] Trigonometrik fonksiyonlar (sin, cos, tan)  
 - [ ] CPU Info çıktısı almak  
-- [ ] Farklı cihazlarda benchmark karşılaştırması  
+- [ ] Farklı cihazlarda benchmark karşılaştırması(Deneniyor) 
 
 ---
 

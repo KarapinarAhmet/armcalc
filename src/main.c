@@ -12,12 +12,13 @@ extern long factorial(long n);
 extern long fibonacci(long n);
 extern long gcd(long a, long b);
 extern long prime(long n);
-long prime_c(long n);
 extern long abs_val(long n);
 extern double sqrt_val(long n);
 extern double cbrt_val(long n);
 extern double power_val(long base, long exp);
+extern double exp_val(long n);
 
+long prime_c(long n);
 long prime_c(long n) {
     if (n < 2) return 0;
     if (n == 2) return 1;
@@ -65,6 +66,7 @@ int main() {
                     printf("  abs n   -> Mutlak değer\n");
                     printf("  sqrt n  -> Kareköke\n");
                     printf("  cbrt n  -> Küpkök\n");
+                    printf("  exp x   -> e^x\n");
                     printf("\nYardım:\n");
                     printf("  help    -> bu menüyü gösterir\n");
                     printf("  q       -> çıkış\n");
@@ -156,6 +158,11 @@ int main() {
         }
         if (sscanf(input, "cbrt %ld", &a) == 1) {
             double sonuc = cbrt_val(a);
+            printf("Sonuç: %.6f\n", sonuc);
+            continue;
+        }
+        else if (sscanf(input, "exp %ld", &a) == 1) {
+            double sonuc = exp_val(a);
             printf("Sonuç: %.6f\n", sonuc);
             continue;
         }
