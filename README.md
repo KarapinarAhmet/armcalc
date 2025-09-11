@@ -13,9 +13,6 @@
   <img src="https://img.shields.io/badge/compiler-clang%20-O2-lightgrey?style=flat-square" alt="Compiler"/>
 </p>
 
-<p align="center">
-  <img src="assets/file_000000003a3c61f58dc1631d5671a774.png" alt="armcalc logo" width="600"/>
-</p>
 # ⚡️ armcalc
 
 **ARM64 Assembly + C** ile yazılmış, **aşırı hızlı** bir hesap makinesi 🚀  
